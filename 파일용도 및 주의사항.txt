@@ -1,0 +1,15 @@
+images=공룡이미지폴더
+ai_play=크롬다이노 자동플레이 코드
+make_data=크롬다이노 데이터학습파일(dino.csv)생성(수동 플레이)
+model_make=csv파일로 모델생성
+make_data_play=크롬다이노 dino.h5를 이용한 데이터학습파일(dino2.csv)생성(자동플레이)
+dino.h5= 인공지능모델
+dino.csv,dino2.csv=데이터 학습파일
+templet,templet2= images폴더안의 test.png를 이용한 이미지 인식코드
+team(10.06).zip= 10월 6일에 만든 코드파일 및 이미지폴더 압축파일
+
+
+주의사항
+ai_play, make_data, make_data_play 코드파일에 존재하는 
+screen =  np.array(ImageGrab.grab(bbox=(0, 0, 800, 800)))은 컴퓨터에 따라 조정이 필요함
+screen.png를 참고 바람
